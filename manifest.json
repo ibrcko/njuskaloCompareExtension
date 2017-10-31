@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Njuška",
+  "description": "Njuška! - Vaš privatni njuškalo.hr detektiv",
+  "version": "1.0",
+
+  "icons": { "16": "styles/favicon-16x16.png",
+    "32": "styles/favicon-32x32.png",
+    "48": "styles/favicon-48x48.png",
+    "120": "styles/favicon-120x120.png" },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Njuška!"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.njuskalo.hr/*"],
+      "css": ["styles/style.css"],
+      "js": ["content.js", "jquery-3.2.1.min.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

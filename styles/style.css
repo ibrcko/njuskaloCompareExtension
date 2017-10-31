@@ -1,0 +1,359 @@
+.btns{
+    cursor: pointer;
+    border: 2px solid black;
+    position: relative;
+    display: block;
+    padding: 14px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    background-color: rgb(229, 229, 228);
+}
+
+.btns:hover{
+    box-shadow: #1b1e21 3px 3px 2px 1px;
+    border: 1px solid #1b1e21;
+}
+
+form{
+    background-color: rgba(229, 229, 228, 0.56);
+    border: none;
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+form > div{
+    padding: 5px;
+}
+
+form > span{
+    padding: 5px;
+}
+.formHide{
+    display: none;
+}
+
+label{
+    display: inline;
+    margin-bottom: 5px;
+}
+
+.html {
+    box-sizing: border-box;
+    height: 470px;
+    width: 405px;
+    perspective-origin: 202.5px 235px;
+    transform-origin: 202.5px 235px;
+    font: normal normal normal normal 16px / normal "Times New Roman";
+
+}/*#HTML_1*/
+
+.body {
+    bottom: 0px;
+    box-sizing: border-box;
+    height: 430px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 365px;
+    perspective-origin: 182.5px 215px;
+    transform-origin: 182.5px 215px;
+    font: normal normal normal normal 16px / normal "Open Sans", sans-serif;
+    margin: 20px;
+    background: linear-gradient(45deg, rgba(89, 90, 85, 0.46) 0%, rgba(239, 228, 185, 0) 53%, rgba(76, 87, 74, 0.46) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}/*#BODY_9*/
+
+.container {
+    box-sizing: border-box;
+    height: initial;
+    width: 365px;
+    perspective-origin: 182.5px 215px;
+    transform-origin: 182.5px 215px;
+    font: normal normal normal normal 16px / normal "Open Sans", sans-serif;
+    border-bottom: 20px solid transparent;
+}/*#DIV_10, #DIV_11*/
+
+
+.header {
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 6px 0px;
+    box-sizing: border-box;
+    height: 115px;
+    left: 1px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 360px;
+    margin-bottom: 10px;
+    z-index: 70;
+    perspective-origin: 180px 22.5px;
+    transform-origin: 180px 22.5px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 20px / normal "Open Sans", sans-serif;
+}/*#DIV_13*/
+
+.header > h5{
+    text-align: center;
+    padding: 15px;
+}
+
+.header > img {
+    box-sizing: border-box;
+    float: left;
+    height: 115px;
+    width: 115px;
+}/*#DIV_1*/
+
+
+
+.cont {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    height: initial;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 336px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 168px 157.5px;
+    transform-origin: 168px 157.5px;
+    caret-color: rgb(153, 153, 153);
+    animation: app__FadeIn___3jl4_ 0.3s ease 0s 1 normal forwards running;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 13px / normal "Open Sans", sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+    border-bottom: 20px solid transparent;
+}/*#DIV_18*/
+
+.offerCount{
+    font-weight: bold;
+}
+
+.divA {
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    display: table;
+    height: 97px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    table-layout: fixed;
+    text-decoration: none solid rgb(153, 153, 153);
+    top: 0px;
+    width: 336px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 168px 48.5px;
+    transform-origin: 168px 48.5px;
+    caret-color: rgb(153, 153, 153);
+    animation: app__FadeIn___3jl4_ 0.3s ease 0s 1 normal forwards running;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal normal normal 13px / normal "Open Sans", sans-serif;
+    margin: 0px 0px 12px;
+    outline: rgb(153, 153, 153) none 0px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    letter-spacing: .05em;
+}/*#A_19, #A_28*/
+
+.divA:hover {
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    display: table;
+    height: 97px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    table-layout: fixed;
+    text-decoration: none solid rgb(153, 153, 153);
+    top: 0px;
+    width: 336px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 168px 48.5px;
+    transform-origin: 168px 48.5px;
+    caret-color: rgb(153, 153, 153);
+    animation: app__FadeIn___3jl4_ 0.3s ease 0s 1 normal forwards running;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 3px solid rgba(27, 30, 33, 0.8);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal normal normal 13px / normal "Open Sans", sans-serif;
+    margin: 0px 0px 12px;
+    outline: rgb(153, 153, 153) none 0px;
+    overflow: hidden;
+    box-shadow: #1b1e21 3px 3px 2px 1px;
+    border: 1px solid #1b1e21;
+}/*#A_19, #A_28*/
+
+/*slika*/
+.divImg {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    display: table-cell;
+    height: 95px;
+    text-align: center;
+    text-decoration: none solid rgb(153, 153, 153);
+    vertical-align: middle;
+    width: 130px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 65px 47.5px;
+    transform-origin: 65px 47.5px;
+    caret-color: rgb(153, 153, 153);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 13px / normal "Open Sans", sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+    overflow: hidden;
+}/*#DIV_20, #DIV_29, #DIV_38*/
+
+.imgSlika {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    height: 70px;
+    text-align: center;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 115px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 50px 12.5px;
+    transform-origin: 50px 12.5px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 13px / normal "Open Sans", sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#IMG_22*/
+/*product detalji container*/
+.offDetails {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    display: table-cell;
+    height: 95px;
+    text-align: left;
+    text-decoration: none solid rgb(153, 153, 153);
+    vertical-align: top;
+    width: 230px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 102px 47.5px;
+    transform-origin: 102px 47.5px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 13px / normal "Open Sans", sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 10px;
+}/*#DIV_23, #DIV_32, #DIV_41*/
+
+.offHeading {
+    box-sizing: border-box;
+    color: #1b1e21;
+    cursor: pointer;
+    height: 21px;
+    text-align: left;
+    text-decoration: none solid rgb(63, 174, 42);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 184px;
+    column-rule-color: rgb(63, 174, 42);
+    perspective-origin: 92px 10.5px;
+    transform-origin: 92px 10.5px;
+    caret-color: rgb(63, 174, 42);
+    border: 0px none rgb(63, 174, 42);
+    font: bold normal normal normal 15px / 21px "Open Sans", sans-serif;
+    margin: 0px;
+    outline: rgb(63, 174, 42) none 0px;
+    overflow: hidden;
+}/*#H1_24, #H1_33, #H1_42*/
+
+.offP1 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    height: 20px;
+    text-align: left;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 184px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 92px 10px;
+    transform-origin: 92px 10px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal bold normal 20px / 20px "Open Sans", sans-serif;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#P_25, #P_34, #P_43*/
+
+.offP2 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    height: 16px;
+    text-align: left;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 184px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 92px 8px;
+    transform-origin: 92px 8px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal bold normal 9px / 13px "Open Sans", sans-serif;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#P_26, #P_35, #P_44*/
+
+.offP3 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 184px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 92px 0px;
+    transform-origin: 92px 0px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 12px / normal "Open Sans", sans-serif;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#P_27*/
+
+.footer{
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 14px;
+    left: 30px;
+    min-width: 15px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    top: 31px;
+    width: 15px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 7.5px 7px;
+    transform-origin: 7.5px 7px;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(84, 184, 72) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 10px / 10px "Open Sans", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 2px;
+}/*#DIV_50*/
+
